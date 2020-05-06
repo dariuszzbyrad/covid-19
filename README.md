@@ -1,11 +1,5 @@
 # covid-19
 
-It's like sandpit to trying to predict the number of infected people by COVID-19 using historical data. 
+When the epidemic broke out in the world and then in Poland many people began to adjust the exponential curves to the data on new infections (I did that too, see the 'deprecated' dir). There is nothing wrong with this, at the beginning of the epidemic, this approximation works quite well in the short-term forecast. When it comes time to flatten out illness, this approach doesn't work. You can try with a sigmoid curve, advanced epidemiological models, etc. I decided to try a slightly different approach and use technical analysis indicators to check the current state. These are not predictions of epidemic development but an attempt to answer if we have an upward, permanent, falling trend in different time horizons.
 
-
-
-**Notebooks**:
-
-- main.ipynb - Use all historical data and the function y(t)=a * exp(b * t).
-- progress-fit.ipynb - Similar to previous notebook but use a few same type of functions to predict (omit last a few days to check how the trend is change).
-- daily-increment.ipynb - Calculate average daily increment for each daily-window (5 days).
+**Note**: I'm not an epidemiologist, biologist, etc. I'm an ordinary programmer and ML / AI enthusiast who wanted to play with data in a slightly different way than most do.
